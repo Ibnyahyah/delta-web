@@ -70,6 +70,12 @@
 
   const communities = [
     {
+      icon: `<i class="fa-brands fa-discord"style="color:rgb(88, 101, 242)"></i>`,
+      label: "Delta Kim DAO",
+      link: "https://discord.gg/fw7mTD8Gha",
+      creator: "",
+    },
+    {
       icon: `<i class="fa-brands fa-telegram" style="color:#0088CC"></i>`,
       label: "DELTA COIN",
       link: "https://t.me/DeltaCoinMiners",
@@ -117,19 +123,13 @@
       link: "https://discord.gg/8XNeDAun75",
       creator: "magnohoved@gmail.com",
     },
-
     {
       icon: `<i class="fa-brands fa-youtube"style="color:rgb(255, 0, 51)"></i>`,
       label: "Delta On ICP",
       link: "https://www.youtube.com/@DeltaOnICPBlockchain",
       creator: "choudharysushobhan97@gmail.com",
     },
-    {
-      icon: `<i class="fa-brands fa-youtube"style="color:rgb(255, 0, 51)"></i>`,
-      label: "Delta NETWOkim 🇫🇷RK",
-      link: "https://chat.whatsapp.com/ERxqenilgXc9RG13RwWAdP",
-      creator: "josephangengang@gmail.com",
-    },
+
     {
       icon: `<i class="fa-brands fa-facebook"style="color:rgb(8, 102, 255)"></i>`,
       label: "Delta δ بالعربي",
@@ -380,7 +380,7 @@
               />
             </div>
             <div class="flex flex-row justify-between">
-              <ul class="grid md:grid-cols-4 gap-3 justify-between">
+              <ul class="grid md:grid-cols-5 gap-3 justify-between">
                 {#each communities as community}
                   <li class="text-md font-[500] text-blue-600 mb-1">
                     <a

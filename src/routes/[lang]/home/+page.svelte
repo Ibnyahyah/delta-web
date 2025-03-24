@@ -88,14 +88,16 @@
   <div class="min-h-[30vh] flex items-center justify-center py-10 md:py-0">
     <div class="px-4 md:px-0 md:w-[40vw] mx-auto">
       <div class=" gap-10">
-        <p class="text-2xl font-[300] text-center">{$t("home_mianheading")}</p>
+        <p class="text-md md:text-2xl font-[400] text-center">
+          {$t("home_mianheading")}
+        </p>
 
         <div
-          class="flex flex-wrap gap-8 md:gap-4 items-center justify-center mt-10"
+          class="flex flex-wrap gap-5 md:gap-4 items-center justify-center mt-10"
         >
           {#each items as item}
             <figure
-              class="w-[150px] md:w-[200px] h-[100px] bg-white shadow-xl flex flex-col items-center justify-center border border-slate-200 rounded-lg"
+              class="w-[145px] md:w-[200px] h-[100px] bg-white shadow-xl flex flex-col items-center justify-center border border-slate-200 rounded-lg"
             >
               <img
                 class="-mb-4"
